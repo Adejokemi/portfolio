@@ -41,7 +41,7 @@
   }
 
   a:hover{
-    color: #4CAF50;
+    color: rgb(233, 70, 98);
   }
   section {
     padding: 40px 20px;
@@ -146,12 +146,12 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-}
-.project {
+  }
+  .project {
     position: relative;
-}
-
-.project-overlay {
+  }
+  
+  .project-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -165,10 +165,10 @@
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s;
-}
-img{
+  }
+  img{
   width: 90%;
-}
+  }
 
 .project-overlay:hover {
     opacity: 1;
